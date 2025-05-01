@@ -13,7 +13,7 @@ public class APCalendar
   public static int numberOfLeapYears(int year1, int year2)
   { 
     int sum = 0;
-    for (int i=year1;i<year2;i++) {
+    for (int i=year1;i<=year2;i++) {
       sum+=isLeapYear(i)?1:0;
     }
     return sum;
